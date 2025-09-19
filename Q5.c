@@ -19,15 +19,17 @@ int main(){
 	    printf("enter a digit (0-9)\n");
 	    scanf("%d",&digit);
     }
-    printf("0:%d\n",count0);
-    printf("1:%d\n",count1);
-    printf("2:%d\n",count2);
-    printf("3:%d\n",count3);
-    printf("4:%d\n",count4);
-    printf("5:%d\n",count5);
-    printf("6:%d\n",count6);
-    printf("7:%d\n",count7);
-    printf("8:%d\n",count8);
-    printf("9:%d\n",count9);
+	printf("numbers\tNumber of occurences\n");
+    printf("0\t%d\n",count0);
+    printf("1\t%d\n",count1);
+    printf("2\t%d\n",count2);
+    printf("3\t%d\n",count3);
+    printf("4\t%d\n",count4);
+    printf("5\t%d\n",count5);
+    printf("6\t%d\n",count6);
+    printf("7\t%d\n",count7);
+    printf("8\t%d\n",count8);
+    printf("9\t%d\n",count9);
 return 0;
 }
+
